@@ -24,6 +24,7 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:text="@string/find_beer"
+        android:onClick="onClickFindBeer"
         />
 
     <TextView
