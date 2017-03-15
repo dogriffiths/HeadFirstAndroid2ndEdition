@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".InboxFragment"
+    tools:context="com.hfad.catchat.TrashFragment"
     >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Inbox"
+        android:text="Trash"
         />
 </LinearLayout>
