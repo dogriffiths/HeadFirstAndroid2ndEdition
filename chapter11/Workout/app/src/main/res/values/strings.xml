@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="details_button">Show details</string>
+
+    <string name="workout_title">Title</string>
+    <string name="workout_description">Description</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
