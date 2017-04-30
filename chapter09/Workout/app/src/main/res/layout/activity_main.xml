@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<fragment
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.hfad.workout.WorkoutListFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:orientation="vertical"
-    tools:context="com.hfad.workout.MainActivity"
-    >
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onShowDetails"
-        android:text="@string/details_button"
-        />
-</LinearLayout>
+    />
