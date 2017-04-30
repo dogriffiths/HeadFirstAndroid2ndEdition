@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".OrderActivity"
+            android:label="@string/create_order"></activity>
     </application>
 
 </manifest>
