@@ -19,4 +19,9 @@
         <item>Cambridge</item>
         <item>Sebastopol</item>
     </string-array>
+
+    <string name="home_tab">Home</string>
+    <string name="pizza_tab">Pizzas</string>
+    <string name="pasta_tab">Pasta</string>
+    <string name="store_tab">Stores</string>
 </resources>
