@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private class SectionsPagerAdapter extends FragmentPagerAdapter {
+    private static class SectionsPagerAdapter extends FragmentPagerAdapter {
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
