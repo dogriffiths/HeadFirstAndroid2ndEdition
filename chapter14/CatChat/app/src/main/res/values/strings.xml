@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CatChat</string>
+    <string name="user_name">spot@catchat.com</string>
+    <string name="nav_inbox">Mesagez</string>
+    <string name="nav_drafts">Draftz</string>
+    <string name="nav_sent">Sent mesagez</string>
+    <string name="nav_trash">In da trash</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_help">Halp</string>
+    <string name="nav_feedback">Giv us feedback</string>
 </resources>
