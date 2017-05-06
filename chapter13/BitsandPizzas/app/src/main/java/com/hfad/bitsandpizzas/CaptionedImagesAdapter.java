@@ -20,7 +20,7 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
     private int[] imageIds;
     private Listener listener;
 
-    public interface Listener {
+    interface Listener {
         void onClick(int position);
     }
 
