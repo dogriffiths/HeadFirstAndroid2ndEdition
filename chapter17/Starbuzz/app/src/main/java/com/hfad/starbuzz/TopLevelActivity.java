@@ -80,6 +80,18 @@ public class TopLevelActivity extends Activity {
         });
     }
 
+    @Override
+    public void onRestart() {
+        super.onRestart();
+        Cursor newCursor = db.query("DRINK",
+                new String[] { "_id", "NAME"}, "FAVORITE = 1",
+                null, null, null, null);
+        ListView listFavorites = (ListView) findViewById(R.id.list_favorites);
+        CursorAdapter adapter = (CursorAdapter) listFavorites.getAdapter();
+        adapter.changeCursor(newCursor);
+        favoritesCursor = newCursor;
+    }
+
     //Close the cursor and database in the onDestroy() method
     @Override
     public void onDestroy(){
