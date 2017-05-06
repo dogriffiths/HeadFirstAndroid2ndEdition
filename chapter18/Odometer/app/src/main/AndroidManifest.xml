@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".OdometerService"
+            android:enabled="true"
+            android:exported="false"></service>
     </application>
 
 </manifest>
