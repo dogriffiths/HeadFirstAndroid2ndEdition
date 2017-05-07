@@ -13,8 +13,6 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.content.ContextCompat;
 
-import java.util.Random;
-
 public class OdometerService extends Service {
 
     private final IBinder binder = new OdometerBinder();
