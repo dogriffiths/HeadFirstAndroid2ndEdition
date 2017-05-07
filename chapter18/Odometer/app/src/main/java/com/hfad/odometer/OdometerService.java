@@ -36,7 +36,8 @@ public class OdometerService extends Service {
             @Override
             public void onLocationChanged(Location location) {
                 if (lastLocation == null) {
-                    lastLocation = location; }
+                    lastLocation = location;
+                }
                 distanceInMeters += location.distanceTo(lastLocation);
                 lastLocation = location;
             }
